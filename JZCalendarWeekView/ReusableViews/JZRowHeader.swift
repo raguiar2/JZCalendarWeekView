@@ -29,7 +29,7 @@ open class JZRowHeader: UICollectionReusableView {
     }
     
     open func setupBasic() {
-        dateFormatter.dateFormat = "HH:mm"
+        dateFormatter.dateFormat = "h a"
         lblTime.textColor = JZWeekViewColors.rowHeaderTime
         lblTime.font = UIFont.systemFont(ofSize: 12)
     }
